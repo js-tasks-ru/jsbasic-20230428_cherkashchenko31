@@ -11,7 +11,7 @@ function print(text) {
  */
 function isValid(name) {
   // ваш код...
-  if (name && name.trim().length >= 4 && !name.includes(" "))
+  if (name && name.length >= 4 && !name.includes(" "))
   {
 return true;
   }
